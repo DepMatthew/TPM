@@ -10,6 +10,7 @@ use Laravel\Sanctum\HasApiTokens;
 
 class User extends Authenticatable
 {
+    
     use HasApiTokens, HasFactory, Notifiable;
 
     /**
@@ -22,6 +23,7 @@ class User extends Authenticatable
         'email',
         'password',
     ];
+    
 
     /**
      * The attributes that should be hidden for serialization.
@@ -43,3 +45,5 @@ class User extends Authenticatable
         'password' => 'hashed',
     ];
 }
+
+
