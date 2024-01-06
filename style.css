@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkmagenta;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: blueviolet;
+}
+
+.logo-container {
+    margin-right: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: "Courier", sans-serif;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.login-container {
+    margin-left: auto;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hackathon-info {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: justify; /* Add text-align: justify; for left and right alignment */
+}
+
+
+.hackathon-info p {
+    font-size: 16px;
+    color: white;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 0px; /* Add spacing between paragraphs */
+    text-align-last: justify; /* Apply justification for the last line as well */
+    display:flex /* Ensure inline-block display for proper justification */
+    width: 100%; /* Ensure full width for proper justification */
+    letter-spacing: 0;
+    word-spacing: 0cm;
+    margin: 0%;
+}
+
+.learn-more-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.learn-more-btn {
+    background-color:purple;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px; /* Adjust the border-radius for a rounded shape */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.learn-more-btn:hover {
+    background-color: palevioletred;
+}
+
